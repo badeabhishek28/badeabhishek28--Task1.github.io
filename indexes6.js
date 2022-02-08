@@ -60,13 +60,13 @@ let libraryForm = document.getElementById('libraryForm');
 libraryForm.addEventListener('submit', libraryFormSubmit);
 
 function libraryFormSubmit(e) {
-    console.log('YOu have submitted library form');
+    console.log('You have submitted library form');
     let name = document.getElementById('bookName').value;
     let author = document.getElementById('author').value;
     let type;
-    let fiction = document.getElementById('fiction');
-    let programming = document.getElementById('programming');
-    let cooking = document.getElementById('cooking');
+    let fiction = document.getElementById('Mechanical Engineering');
+    let programming = document.getElementById('Computer Engineering');
+    let cooking = document.getElementById('Electrical Engineering');
 
     if (fiction.checked) {
         type = fiction.value;
